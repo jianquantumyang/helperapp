@@ -6,7 +6,7 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    show: false,
+    show: false, // Set show to false initially
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
@@ -27,7 +27,7 @@ function createWindow() {
   });
 
   mainWindow.once('ready-to-show', () => {
-    mainWindow.show(); 
+    mainWindow.show(); // Show the window once it's ready
   });
 }
  
