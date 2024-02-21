@@ -1,0 +1,23 @@
+{
+  "name": "helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "build": {
+    "win": {
+      "verifyUpdateCodeSignature": false,
+      "signAndEditExecutable": false
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "obojau",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.2.2",
+    "electron-builder": "^24.9.1",
+    "electron-packager": "^17.1.2"
+  }
+}

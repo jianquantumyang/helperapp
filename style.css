@@ -1,0 +1,101 @@
+
+.container
+{
+    max-width: 800px;
+    margin: auto;
+}
+html body{
+    max-width: 800px;
+    overflow-x: hidden;  
+    font-family:'Times New Roman', Times, serif;
+}
+strong {
+    font-weight: bold;
+    color: #007bff; /* Example color for strong text */
+  }
+.button {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button-primary {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.button-secondary {
+    background-color: #f50057;
+    color: #fff;
+}
+
+/* Input Fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 800px;
+    width: 780px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+/* Cards */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.input-wrapper input {
+    padding-right: 40px;
+}
+
+.input-wrapper button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    aspect-ratio: 1;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,5 @@
+#how to ignore dir (name + /)
+
+node_modules/
+
+dist/
